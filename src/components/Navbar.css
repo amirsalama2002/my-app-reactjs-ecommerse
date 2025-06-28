@@ -1,0 +1,96 @@
+.navbar-app-bar {
+  background-color: #FFFFFF !important; /* White background for the entire app bar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05) !important; /* Subtle shadow from screenshot */
+  height: auto !important; /* Allow height to adjust */
+  padding: 0 !important; /* Remove default padding */
+  width: 100%;
+  margin: auto;
+}
+
+/* Top promotional banner */
+.navbar-promo-banner {
+  background-color: #333333; /* Dark background for the banner */
+  color: #FFFFFF; /* White text */
+  text-align: center;
+  padding: 8px 0; /* Vertical padding */
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Space between text and button */
+}
+
+.navbar-promo-text {
+  font-size: inherit !important; /* Ensure text size is inherited */
+}
+
+.navbar-promo-button {
+  background-color: #FF6600 !important; /* Example color, adjust as per screenshot if different */
+  color: #FFFFFF !important;
+  border-radius: 5px !important;
+  text-transform: none !important;
+  font-size: 0.75rem !important;
+  padding: 4px 12px !important;
+}
+
+.navbar-promo-button:hover {
+  background-color: #E65C00 !important;
+}
+
+/* Main navigation Toolbar */
+.navbar-main-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px !important; /* Standard AppBar height, adjust if needed */
+  padding: 0 24px !important; /* Adjust padding as seen in screenshot */
+}
+
+/* Left section: Logo and Nav Links */
+.navbar-left-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Logo/Brand Name */
+.navbar-brand-logo {
+  font-family: 'Arial, sans-serif' !important; /* Adjust font if specific */
+  font-weight: bold !important;
+  color: #000000 !important; /* Black color */
+  text-decoration: none !important; /* Remove underline */
+  font-size: 1.5rem !important; /* Adjust font size for "IZCM" */
+}
+
+/* Common styles for navigation links */
+.navbar-link-button {
+  color: #333333 !important; /* Dark text color for links */
+  text-transform: none !important; /* Prevent uppercase */
+  font-weight: normal !important;
+}
+
+.navbar-link-button:hover {
+  background-color: rgba(0, 0, 0, 0.04) !important; /* Subtle hover */
+}
+
+/* Right section: Login/Logout/User icon */
+.navbar-right-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Styles for the Login button */
+.navbar-login-button,
+.navbar-logout-button { /* Apply same style to logout button for consistency */
+  background-color: #000000 !important; /* Black background */
+  color: #FFFFFF !important; /* White text */
+  border-radius: 5px !important; /* Rounded corners */
+  text-transform: none !important; /* Prevent uppercase */
+  padding: 8px 20px !important; /* Padding for the button */
+}
+
+.navbar-login-button:hover,
+.navbar-logout-button:hover {
+  background-color: #333333 !important; /* Darker black on hover */
+}

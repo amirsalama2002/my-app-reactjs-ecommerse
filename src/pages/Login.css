@@ -1,0 +1,83 @@
+/* Login.css */
+
+/* Global styles for the page background and centering */
+.login-container {
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #F8FAF8; /* Background color from the screenshot */
+}
+
+/* Styles for the main login card */
+.login-card {
+    width: 347px; 
+    background-color: #FFFFFF; /* White background for the login card */
+    border-radius: 12.39px; /* Border radius from Figma */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+    padding: 24px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Styles for "Welcome back" title */
+.welcome-title {
+    font-weight: bold !important; /* Use !important to ensure override */
+    margin-bottom: 8px !important; /* Space below "Welcome back" */
+    color: #333 !important; /* Darker text color */
+}
+
+/* Styles for the subtitle "Please enter your details..." */
+.login-subtitle {
+    margin-bottom: 24px !important; /* Space below the subtitle */
+    color: #777 !important; /* Lighter text color */
+}
+
+/* Styles for the alert message */
+.login-alert {
+    width: 100%;
+    margin-bottom: 16px !important; /* Space below alert */
+}
+
+/* Styles for the form container */
+.login-form {
+    width: 100%;
+}
+
+/* Styles for all TextField inputs */
+.login-input .MuiOutlinedInput-root {
+    border-radius: 8px !important; /* Rounded corners for text fields */
+    background-color: #F5F5F5 !important; /* Light grey background for input */
+}
+
+.login-input .MuiOutlinedInput-input {
+    padding: 12px 14px !important; /* Adjust padding */
+}
+
+.login-input .MuiOutlinedInput-notchedOutline {
+    border: none !important; /* Remove default border */
+}
+
+/* Specific margin for password input to create space before button */
+.login-password-input {
+    margin-bottom: 24px !important; /* Space before the button */
+}
+
+/* Styles for the Login button */
+.login-button {
+    height: 48px !important; /* Fixed height for the button */
+    border-radius: 8px !important; /* Rounded corners for the button */
+    background-color: #000000 !important; /* Black background for the button */
+    color: #FFFFFF !important; /* White text */
+    font-weight: bold !important; /* Bold text */
+    text-transform: none !important; /* Prevent uppercase */
+}
+
+.login-button:hover {
+    background-color: #333333 !important; /* Darker black on hover */
+}
+
